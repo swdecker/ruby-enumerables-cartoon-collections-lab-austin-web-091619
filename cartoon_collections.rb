@@ -19,4 +19,4 @@ def find_the_cheese# code an argument here
 end
 
 #dwarves = ["tiny", "biny", "sminy"]
-roll_call_dwarves(dwarves)
+#roll_call_dwarves(dwarves)
