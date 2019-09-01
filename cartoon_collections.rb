@@ -24,7 +24,7 @@ def find_the_cheese(arr)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr.index{
-  arr.include?()
+  if arr.each {|cheese| arr.include?(cheese)}
 end
 
 #dwarves = ["tiny", "biny", "sminy"]
