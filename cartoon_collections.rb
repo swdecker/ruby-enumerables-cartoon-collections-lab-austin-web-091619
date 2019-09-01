@@ -12,7 +12,12 @@ end
 
 def long_planeteer_calls(call_array)# code an argument here
   # Your code here
-  call_array.max{|a,b| a.length <=> b.length}
+  long_word = call_array.max{|a,b| a.length <=> b.length}
+  if long_word.length > 4
+    return true 
+  else
+    return false
+  end
 end
 
 def find_the_cheese# code an argument here
