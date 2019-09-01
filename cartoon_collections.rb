@@ -1,8 +1,7 @@
 def roll_call_dwarves(d_arr)# code an argument here
   # Your code here
   d_arr.each_index do |i|
-    lister = ""
-    puts i.to_s +"." + d_arr[i]
+    puts "#{i}. #{d_arr[i]}"
   end
 end
 
