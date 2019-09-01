@@ -23,8 +23,8 @@ end
 def find_the_cheese(arr)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr.index{
-  arr.find {|cheese| arr.include?(cheese)}
+  
+  arr.find {|item| cheese_types.include?(item)}
 end
 
 #dwarves = ["tiny", "biny", "sminy"]
